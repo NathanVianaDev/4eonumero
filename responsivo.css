@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    min-width: 20vw;
+    min-height: 20vh;
+    transition: 0.5s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.boxyellow{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.boxred{
+    background: red;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.boxgreen{
+    background: green;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.boxblue{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+@media (max-width: 768px){
+    body{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxyellow{
+        width: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxred{
+        width: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxgreen{
+        width: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxblue{
+        width: 470px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
